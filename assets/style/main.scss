@@ -1,0 +1,18 @@
+$cPurpleDark: #5f1e8a;
+$cPurpleLight: #c46bff;
+$cPurple: #8c45d6;
+$cGreenDark: #7a8a11;
+$cGreenLight: #c3d645;
+
+body {
+  margin: 0;
+
+  font-family: Arial, Helvetica, sans-serif;
+  
+  background-color: $cPurple;
+
+  h1 {
+    color: $cPurpleLight;
+  }
+
+}
