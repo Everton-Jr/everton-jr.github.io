@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;800&display=swap');
+
 $cPurpleDark: #381C57;
 $cPurpleLight: #B289DD;
 $cPurple: #8c45d6;
@@ -15,13 +17,14 @@ body {
 
   margin: 0;
 
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   
   background-color: $cDark;
 
   color: #fff;
 
   h1 {
+    font-weight: 600;
     color: $cPurpleLight;
   }
 
@@ -31,6 +34,11 @@ body {
 
     padding: 5% 5% 0 5%;
     box-sizing: border-box;
+
+    &:nth-of-type(1) h2 {
+      font-size: 18px;
+      font-weight: 100;
+    }
 
     ul {
       display: flex;
@@ -58,6 +66,7 @@ body {
 
           color: $cPurpleLight;
           text-align: end;
+          font-weight: 400;
           margin: 0;
           padding-top: 11px;
           padding-right: 4px;
@@ -73,7 +82,6 @@ body {
       }
     }
   }
-
 }
 
 $scrollbarSize: 10px;
