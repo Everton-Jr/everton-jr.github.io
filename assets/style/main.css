@@ -66,6 +66,7 @@ body main section ul li img {
 }
 body footer {
   width: 300px;
+  padding-bottom: 10vh;
 }
 body footer h1 {
   text-align: center;
