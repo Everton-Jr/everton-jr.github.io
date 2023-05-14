@@ -10,29 +10,35 @@ body {
   background-color: #110e27;
   color: #fff;
 }
+body ul {
+  padding: 0;
+  list-style: none;
+}
 body h1 {
   font-weight: 600;
   color: #B289DD;
 }
-body section {
+body main {
+  width: 100%;
+}
+body main section {
   width: 100%;
   height: 100vh;
-  padding: 5% 5% 0 5%;
+  padding: 5%;
   box-sizing: border-box;
 }
-body section:nth-of-type(1) h2 {
-  font-size: 18px;
+body main section:nth-of-type(1) h2 {
+  font-size: 20px;
   font-weight: 100;
 }
-body section ul {
+body main section ul {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
   padding: 0;
-  list-style: none;
   justify-content: space-around;
 }
-body section ul li {
+body main section ul li {
   width: 125px;
   height: 125px;
   overflow: hidden;
@@ -40,7 +46,7 @@ body section ul li {
   border-radius: 50% 0;
   background-color: #381C57;
 }
-body section ul li h3 {
+body main section ul li h3 {
   height: 30%;
   box-sizing: border-box;
   color: #B289DD;
@@ -50,13 +56,32 @@ body section ul li h3 {
   padding-top: 11px;
   padding-right: 4px;
 }
-body section ul li img {
+body main section ul li img {
   width: 100%;
   height: 70%;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+}
+body footer {
+  width: 300px;
+}
+body footer h1 {
+  text-align: center;
+}
+body footer ul:nth-of-type(2) {
+  display: flex;
+  justify-content: space-between;
+}
+body footer ul:nth-of-type(2) li a {
+  font-weight: bold;
+  color: #D6D645;
+  text-decoration: none;
+}
+body footer ul:nth-of-type(2) li a:hover {
+  transition: 0.3s;
+  color: #fff;
 }
 
 ::-webkit-scrollbar {
