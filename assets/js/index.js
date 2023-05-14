@@ -29,7 +29,7 @@ for (let i = 0; i < HABILIDADES.length; i++) {
   message += `
   <li>
     <h3>${HABILIDADES[i].Nome}</h3>
-    <img src="../img/${HABILIDADES[i].Nome}.svg" alt="Icone ${HABILIDADES[i].Nome}">
+    <img src="assets/img/icon_${HABILIDADES[i].Nome}.png" alt="Icone ${HABILIDADES[i].Nome}">
   </li>`;
 }
 
